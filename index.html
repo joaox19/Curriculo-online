@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>João Pedro Alves | Cyber Security</title>
+
+<style>
+:root{
+  --bg:#070b14;
+  --card:rgba(255,255,255,0.06);
+  --border:rgba(255,255,255,0.12);
+  --accent:#38bdf8;
+  --text:#e5e7eb;
+  --muted:#94a3b8;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+  background: radial-gradient(circle at top, #0b1220, #070b14);
+  color:var(--text);
+}
+
+/* HEADER */
+header{
+  text-align:center;
+  padding:80px 20px 40px;
+}
+
+header h1{
+  font-size:44px;
+  letter-spacing:1px;
+}
+
+header p{
+  color:var(--muted);
+  margin-top:10px;
+  font-size:18px;
+}
+
+.badge{
+  display:inline-block;
+  margin-top:15px;
+  padding:6px 12px;
+  border:1px solid var(--border);
+  border-radius:20px;
+  color:var(--accent);
+  font-size:12px;
+}
+
+/* BUTTONS */
+.buttons{
+  margin-top:25px;
+}
+
+button{
+  background:var(--accent);
+  border:none;
+  padding:10px 18px;
+  margin:5px;
+  border-radius:8px;
+  cursor:pointer;
+  font-weight:bold;
+}
+
+button:hover{
+  opacity:0.8;
+}
+
+/* CONTAINER */
+.container{
+  max-width:1000px;
+  margin:auto;
+  padding:20px;
+}
+
+/* GRID */
+.grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:20px;
+}
+
+@media(max-width:768px){
+  .grid{
+    grid-template-columns:1fr;
+  }
+}
+
+/* CARDS */
+.card{
+  background:var(--card);
+  border:1px solid var(--border);
+  padding:20px;
+  border-radius:12px;
+  backdrop-filter: blur(10px);
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:translateY(-3px);
+  border-color:var(--accent);
+}
+
+h2{
+  color:var(--accent);
+  margin-bottom:10px;
+  font-size:18px;
+}
+
+/* TAGS */
+.tag{
+  display:inline-block;
+  padding:6px 10px;
+  margin:4px;
+  border-radius:8px;
+  font-size:12px;
+  background:rgba(56,189,248,0.1);
+  border:1px solid rgba(56,189,248,0.2);
+}
+
+/* FOOTER */
+footer{
+  text-align:center;
+  padding:30px;
+  color:var(--muted);
+  font-size:12px;
+}
+</style>
+</head>
+
+<body>
+<header>
+  <h1>João Pedro Alves</h1>
+
+  <p>Estudante de Tecnologia da Informação | <span style="color:#38bdf8;">Interesse em Segurança da Informação</span></p>
+
+  <div class="badge">Em evolução constante na área de TI</div>
+
+ <div class="buttons">
+
+    <a href="Curriculo João- Atualizado (2).pdf" download>
+        <button>📄 Baixar CV</button>
+    </a>
+
+    <a href="https://www.linkedin.com/in/joão-pedro-alves-0046b1419" target="_blank">
+        <button>💼 LinkedIn</button>
+    </a>
+
+  </div>
+</header>
+
+<div class="container">
+
+  <div class="card">
+    <h2>🎯 Objetivo Profissional</h2>
+
+    Busco uma oportunidade de estágio em Tecnologia da Informação para desenvolver meus conhecimentos, contribuir com dedicação e disciplina, e evoluir continuamente, com interesse em Segurança da Informação.
+
+  </div>
+
+  <div class="grid">
+
+    <div>
+
+      <div class="card">
+        <h2>🎓 Formação</h2>
+
+        <strong>Universidade de Mogi das Cruzes (UMC)</strong><br>
+
+        2º semestre – Graduação em andamento
+
+      </div>
+            <div class="card">
+        <h2>💼 Experiência</h2>
+
+        <strong>Escritório – Área Financeira</strong><br>
+
+        Atuação em rotinas administrativas e apoio financeiro, desenvolvendo organização, responsabilidade e atenção aos detalhes.
+
+        <br><br>
+
+        <strong>Servente – Construção Civil (atual)</strong><br>
+
+        Atuação em equipe, cumprimento de prazos e desenvolvimento de disciplina, comprometimento e responsabilidade.
+
+      </div>
+
+    </div>
+
+    <div>
+
+      <div class="card">
+        <h2>📚 Cursos</h2>
+
+        <span class="tag">Inglês básico</span>
+        <span class="tag">Informática avançada</span>
+        <span class="tag">Cyber Security (Pentest)</span>
+        <span class="tag">Duolingo diário</span>
+
+      </div>
+
+      <div class="card">
+        <h2>💻 Skills Técnicas</h2>
+
+        <span class="tag">Python básico</span>
+        <span class="tag">Segurança da Informação</span>
+        <span class="tag">Pacote Office</span>
+        <span class="tag">Lógica de programação</span>
+
+      </div>
+            <div class="card">
+        <h2>⚡ Perfil</h2>
+
+        Perfil disciplinado, com facilidade para aprender, comprometimento com resultados e interesse constante em evoluir na área de tecnologia.
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<footer>
+  © 2026 João Pedro Alves | Portfólio de Transição para TI
+</footer>
+
+</body>
+</html>
